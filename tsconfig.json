@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "rootDir": "./src", // Diretório fonte
+    "strict": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "target": "ES6",
+    "module": "commonjs",
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*"], // Inclui todos os arquivos em src
+  "exclude": ["node_modules"]
+}

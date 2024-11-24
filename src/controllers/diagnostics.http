@@ -1,0 +1,33 @@
+### ping
+POST http://localhost:3000/api/ping
+Content-Type: application/json
+
+{
+   "target": "8.8.8.8"
+}
+
+
+### traceroute
+POST http://localhost:3000/api/traceroute
+Content-Type: application/json
+
+{
+   "target": "8.8.8.8"
+}
+
+### nslookup
+POST http://localhost:3000/api/nslookup
+Content-Type: application/json
+
+{
+   "target": "www.ixcsoft.com.br",
+   "dnsServers": ["8.8.8.8", "1.1.1.1"]
+}
+
+### http-check
+POST http://localhost:3000/api/http-check
+Content-Type: application/json
+
+{
+   "target": "https://www.google.com"
+}
